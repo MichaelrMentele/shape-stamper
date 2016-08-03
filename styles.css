@@ -1,0 +1,36 @@
+canvas {
+	display: block;
+	margin: 0 auto;
+	border: 1px lightgrey solid;
+}
+
+ul {
+	width: 800px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+li {
+	display: inline-block;
+	padding: 10px;
+}
+
+a {
+	display: inline-block;
+	padding: 8px 20px 8px 20px;
+	background-color: crimson;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+}
+
+a.active {
+	color: crimson;
+	background-color: white;
+	border: 1px solid black;
+}
+
+fieldset {
+	padding: 0;
+	border: none;
+}
